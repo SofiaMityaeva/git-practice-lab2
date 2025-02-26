@@ -25,7 +25,6 @@ jobs:
       - name: Установка зависимостей
         run: |
           pip install pytest  # Установка pytest
-          pip install -r requirements.txt  # Установка других зависимостей, если есть
 
       - name: Запуск тестов
         run: |
