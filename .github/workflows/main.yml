@@ -23,11 +23,9 @@ jobs:
           # pip install -r requirements.txt  # Для Python
           # mvn install  # Для Java
 
-      - name: Запуск тестов
+      - name: Run tests
         run: |
-          npm test  # Запуск тестов для Node.js
-          # pytest  # Для Python
-          # mvn test  # Для Java
+          python -m pytest
 
   deploy:
     needs: build
