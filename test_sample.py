@@ -6,3 +6,6 @@ def test2():
     
 def test3():
     assert 2 * 2 == 4
+    
+def test4():
+    assert (2 + 2)*2 == 8
